@@ -7,12 +7,24 @@
     <router-view></router-view>
 </template>
 
-<script>
+<script type="text/babel">
     export default {
         name: 'app',
-        components: {}
+        components: {},
+        props: {},
+        data () {
+            return {};
+        },
+        methods: {},
+        created () {},
+        beforeCompile () {},
+        compiled () {},
+        ready () {},
+        beforeDestroy () {},
+        destroyed () {},
+        watch: {}
     };
 </script>
 
-<style>
+<style scoped>
 </style>
