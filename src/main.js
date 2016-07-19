@@ -6,6 +6,9 @@ Vue.use(VueAsyncData);
 import VueResource from 'vue-resource';
 Vue.use(VueResource);
 
+import * as Http from './http';
+Http.init();
+
 import VueX from 'vuex';
 Vue.use(VueX);
 
