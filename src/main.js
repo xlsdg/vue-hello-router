@@ -1,14 +1,16 @@
 import Vue from 'vue';
 
 import VueAsyncData from 'vue-async-data';
-import VueLazyloadImg from 'vue-lazyload-img';
+// import VueLazyloadImg from 'vue-lazyload-img';
 import VueResource from 'vue-resource';
 import VueRouter from 'vue-router';
-import VueX from 'vuex';
+// import VueX from 'vuex';
 
 Vue.use(VueAsyncData);
+// Vue.use(VueLazyloadImg);
 Vue.use(VueResource);
 Vue.use(VueRouter);
+// Vue.use(VueX);
 
 var router = new VueRouter();
 

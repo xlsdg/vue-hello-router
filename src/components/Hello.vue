@@ -7,21 +7,33 @@
 <script type="text/babel">
     export default {
         name: 'hello',
-        components: {},
-        props: {},
-        data () {
+        components: {
+        },
+        props: {
+        },
+        data: () => {
             return {
                 msg: 'Hello World!'
             };
         },
-        methods: {},
-        created () {},
-        beforeCompile () {},
-        compiled () {},
-        ready () {},
-        beforeDestroy () {},
-        destroyed () {},
-        watch: {}
+        computed: {
+        },
+        methods: {
+        },
+        created: () => {
+        },
+        beforeCompile: () => {
+        },
+        compiled: () => {
+        },
+        ready: () => {
+        },
+        beforeDestroy: () => {
+        },
+        destroyed: () => {
+        },
+        watch: {
+        }
     };
 </script>
 

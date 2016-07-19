@@ -5,19 +5,32 @@
 <script type="text/babel">
     export default {
         name: 'view02',
-        components: {},
-        props: {},
-        data () {
-            return {};
+        components: {
         },
-        methods: {},
-        created () {},
-        beforeCompile () {},
-        compiled () {},
-        ready () {},
-        beforeDestroy () {},
-        destroyed () {},
-        watch: {}
+        props: {
+        },
+        data: () => {
+            return {
+            };
+        },
+        computed: {
+        },
+        methods: {
+        },
+        created: () => {
+        },
+        beforeCompile: () => {
+        },
+        compiled: () => {
+        },
+        ready: () => {
+        },
+        beforeDestroy: () => {
+        },
+        destroyed: () => {
+        },
+        watch: {
+        }
     };
 </script>
 
