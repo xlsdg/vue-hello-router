@@ -6,8 +6,8 @@ Vue.use(VueAsyncData);
 import VueResource from 'vue-resource';
 Vue.use(VueResource);
 
-import * as Http from './http';
-Http.init();
+import {init as InitHttp} from './http';
+InitHttp();
 
 import VueX from 'vuex';
 Vue.use(VueX);
@@ -22,8 +22,8 @@ Vue.use(Vue.lazyimg, {
 import VueRouter from 'vue-router';
 Vue.use(VueRouter);
 
-import * as Router from './router';
-Router.init(VueRouter, {
+import {init as InitRouter} from './router';
+InitRouter(VueRouter, {
     'hashbang': false,
     'history': true,
     'abstract': false,

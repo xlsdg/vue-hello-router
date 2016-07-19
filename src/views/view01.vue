@@ -3,6 +3,7 @@
 </template>
 
 <script type="text/babel">
+    import {user} from '../api';
     export default {
         'name': 'view01',
         'components': {
@@ -24,6 +25,12 @@
         'compiled': () => {
         },
         'ready': () => {
+            let data = {
+                'name': 'xlsdg'
+            };
+            user.info(data).then((res) => {
+                console.log(res);
+            });
         },
         'beforeDestroy': () => {
         },
