@@ -6,33 +6,33 @@
 
 <script type="text/babel">
     export default {
-        name: 'hello',
-        components: {
+        'name': 'hello',
+        'components': {
         },
-        props: {
+        'props': {
         },
-        data: () => {
+        'data': () => {
             return {
-                msg: 'Hello World!'
+                'msg': 'Hello World!'
             };
         },
-        computed: {
+        'computed': {
         },
-        methods: {
+        'methods': {
         },
-        created: () => {
+        'created': () => {
         },
-        beforeCompile: () => {
+        'beforeCompile': () => {
         },
-        compiled: () => {
+        'compiled': () => {
         },
-        ready: () => {
+        'ready': () => {
         },
-        beforeDestroy: () => {
+        'beforeDestroy': () => {
         },
-        destroyed: () => {
+        'destroyed': () => {
         },
-        watch: {
+        'watch': {
         }
     };
 </script>

@@ -4,32 +4,32 @@
 
 <script type="text/babel">
     export default {
-        name: 'view01',
-        components: {
+        'name': 'view01',
+        'components': {
         },
-        props: {
+        'props': {
         },
-        data: () => {
+        'data': () => {
             return {
             };
         },
-        computed: {
+        'computed': {
         },
-        methods: {
+        'methods': {
         },
-        created: () => {
+        'created': () => {
         },
-        beforeCompile: () => {
+        'beforeCompile': () => {
         },
-        compiled: () => {
+        'compiled': () => {
         },
-        ready: () => {
+        'ready': () => {
         },
-        beforeDestroy: () => {
+        'beforeDestroy': () => {
         },
-        destroyed: () => {
+        'destroyed': () => {
         },
-        watch: {
+        'watch': {
         }
     };
 </script>

@@ -12,33 +12,33 @@
     require('hotcss');
 
     export default {
-        name: 'app',
-        components: {
-            hello: require('./components/Hello')
+        'name': 'app',
+        'components': {
+            'hello': require('./components/Hello')
         },
-        props: {
+        'props': {
         },
-        data: () => {
+        'data': () => {
             return {
             };
         },
-        computed: {
+        'computed': {
         },
-        methods: {
+        'methods': {
         },
-        created: () => {
+        'created': () => {
         },
-        beforeCompile: () => {
+        'beforeCompile': () => {
         },
-        compiled: () => {
+        'compiled': () => {
         },
-        ready: () => {
+        'ready': () => {
         },
-        beforeDestroy: () => {
+        'beforeDestroy': () => {
         },
-        destroyed: () => {
+        'destroyed': () => {
         },
-        watch: {
+        'watch': {
         }
     };
 </script>

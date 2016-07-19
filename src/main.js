@@ -1,26 +1,33 @@
 import Vue from 'vue';
 
 import VueAsyncData from 'vue-async-data';
-// import VueLazyloadImg from 'vue-lazyload-img';
-import VueResource from 'vue-resource';
-import VueRouter from 'vue-router';
-// import VueX from 'vuex';
-
 Vue.use(VueAsyncData);
-// Vue.use(VueLazyloadImg);
+
+import VueResource from 'vue-resource';
 Vue.use(VueResource);
-Vue.use(VueRouter);
-// Vue.use(VueX);
 
-var router = new VueRouter();
+import VueX from 'vuex';
+Vue.use(VueX);
 
-router.map({
-    '/view01': {
-        component: require('./views/view01')
-    },
-    '/view02': {
-        component: require('./views/view02')
-    }
+import 'vue-lazyload-img';
+Vue.use(Vue.lazyimg, {
+    'fade': true,
+    'nohori': true,
+    'speed': 20
 });
 
-router.start(require('./app'), 'app');
+import VueRouter from 'vue-router';
+Vue.use(VueRouter);
+
+import * as Router from './router';
+Router.init(VueRouter, {
+    'hashbang': false,
+    'history': true,
+    'abstract': false,
+    'root': null,
+    'linkActiveClass': 'v-link-active',
+    'saveScrollPosition': true,
+    'transitionOnLoad': false,
+    'suppressTransitionError': false
+});
+
