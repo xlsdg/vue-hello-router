@@ -41,5 +41,6 @@
 <style lang="less" scoped>
     h1 {
         color: #42b983;
+        text-align: center;
     }
 </style>

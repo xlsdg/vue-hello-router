@@ -1,5 +1,5 @@
 <template>
-    <h1>Hello App!</h1>
+    <hello></hello>
     <p>
         <a v-link="{ path: '/view01' }">Go to View 01</a>
         <a v-link="{ path: '/view02' }">Go to View 02</a>
@@ -14,6 +14,7 @@
     export default {
         name: 'app',
         components: {
+            hello: require('./components/Hello')
         },
         props: {
         },
@@ -43,5 +44,8 @@
 </script>
 
 <style lang="less" scoped>
-    // @import 'node_modules/hotcss/px2rem.less';
+    @import '../node_modules/hotcss/src/px2rem.less';
+    h1 {
+        font-size: px2rem(12px);
+    }
 </style>
