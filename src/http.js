@@ -11,9 +11,7 @@ function initHttp() {
 }
 
 function get(url, data) {
-    return Vue.http.get(url, {
-        'params': data
-    });
+    return Vue.http.get(url, data);
 }
 
 function post(url, data) {
